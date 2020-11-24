@@ -1,0 +1,181 @@
+*{
+    margin: auto;
+    padding: auto;
+    height: calc(100vh - auto);
+ 
+    
+}
+
+
+
+
+
+
+body{
+   
+    display: block;
+    height: 100vh;
+}
+
+
+
+.btn{
+
+
+    display: none;
+
+
+
+}
+
+
+
+
+
+ul{
+
+    display: inline-flex;
+    position: relative;
+    
+    padding: 13px;
+    align-items: center;
+    transition: all 0.1s;
+    
+    
+}
+
+
+
+
+.ao{
+    color:whitesmoke;
+    align-items: none;
+    text-decoration: none;
+
+
+
+
+
+}
+
+/* card central*/
+
+
+
+
+
+
+.card-1{
+
+    display: block;
+    position: relative;
+    height: 500px;
+    width: 250px;
+    left: 50px;
+    margin: 10px;
+   
+    margin: 5px;
+    text-align: center;
+    transition: all 0.25s;
+    
+
+
+
+
+}
+
+.card-1:hover{
+  transform: translate(-5px);
+  box-shadow: 0 12px 16px rgba(0,0,0, 0.2);
+
+}
+
+
+img{
+
+    width: 250px;
+    height: 230px;
+
+
+
+}
+
+
+ol{
+
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    position: relative;
+    right: 1.5em;
+
+
+
+
+
+}
+
+
+
+/*redes*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+h4{
+    color: white;
+}
+
+
+ul{
+    color: white;
+}
+
+.ae{
+    color: white;
+    align-items: none;
+    text-decoration: none;
+}
+
+
+
+
