@@ -1,4 +1,4 @@
-@media  screen and (max-width:605px) {
+@media  screen and (max-width:700px) {
 
     *{
          
@@ -17,7 +17,7 @@
 
 
         
-        display: inline-flex;
+        display: flex;
         position: fixed;
         left: 20px;
         background: rgb(110, 26, 26);
@@ -27,11 +27,9 @@
         right: 0;
         flex-direction: column;
         width: 200px;
-        height: 300px;
+        height: 400px;
         margin-top: 50px;
-        transition: 1.2s solid all;
-
-        opacity: 2s;
+        
 
     }
 
@@ -113,18 +111,16 @@
     /*footer*/
     .footer{
 
-        display: block;
+        display: grid;
         height: 400px ;
         
         text-align: center;
 
 
     }
-
-
     .s1{
 
-        display: block;
+        display: none;
         position: relative;
         top: -100px;
         left: 50px;
@@ -147,6 +143,7 @@
   
     .s3{
 
+        display: block;
         position: relative;
         top: 150px;
         right: 350px;
