@@ -1,7 +1,7 @@
 *{
     margin: auto;
     padding: auto;
-    height: calc(100vh - auto);
+    height: calc (100vh - auto);
 
  
     
@@ -154,7 +154,8 @@ ol{
 /*footer*/
 
 .footer{
-
+  
+    margin: auto;
     height: 200px;
 
 

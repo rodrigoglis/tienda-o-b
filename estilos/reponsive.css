@@ -3,7 +3,7 @@
     *{
          
         margin: auto;
-        height: calc(100vh - auto);
+        
         
      
         
@@ -112,7 +112,7 @@
     .footer{
 
         display: grid;
-        height: 400px ;
+        height: 390px;
         
         text-align: center;
 
