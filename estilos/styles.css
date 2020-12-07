@@ -61,7 +61,7 @@ ul{
 
 .card-central {
 
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     margin: 60px;
     position: relative;
