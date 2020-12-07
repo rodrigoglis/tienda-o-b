@@ -1,8 +1,8 @@
 *{
     margin: auto;
     padding: auto;
-    height: calc (100vh - auto);
-
+    
+    
  
     
 }
@@ -15,17 +15,14 @@
 body{
    
     display: block;
-    height: 100vh;
+    max-height: 120vh;
 }
 
 
 
 .btn{
 
-
     display: none;
-
-
 
 }
 
@@ -59,9 +56,20 @@ ul{
 
 }
 
-/* card central*/
+
+/* card */
+
+.card-central {
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 60px;
+    position: relative;
+    left: 60px;
 
 
+
+}
 
 
 
@@ -73,9 +81,9 @@ ul{
     height: 500px;
     width: 250px;
     left: 50px;
-    margin: 10px;
+    margin: 20px;
    
-    margin: 5px;
+    
     text-align: center;
     transition: all 0.25s;
     
@@ -132,7 +140,7 @@ ol{
 	text-align:center;
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+    z-index:80;
 }
 .float:hover {
 	text-decoration: none;
@@ -155,11 +163,68 @@ ol{
 
 .footer{
   
+    display: block;
     margin: auto;
-    height: 200px;
+    height: 250px;
+    background:red;
+    list-style: none;
+}
+
+
+.f1{
+
+   
+   position: relative;
+   top: 60px;
+   margin: 60px;
 
 
 }
+
+.f2{ 
+
+   text-align: right;
+    position: relative;
+    top:  -95px;
+   margin: 70px; 
+    
+}
+
+
+.li{
+     color: white;
+     margin: 15px;
+}
+
+
+a{
+
+
+    color: white;
+   padding: 4px;
+    text-decoration: none;
+    
+
+
+
+}
+
+
+.f3{
+
+
+     color: white;
+   text-align: center ;
+
+   margin-top: -80px;
+}
+
+  
+
+
+
+
+
 
 
 
