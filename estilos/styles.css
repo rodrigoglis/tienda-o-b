@@ -110,6 +110,16 @@ img{
 }
 
 
+video{
+
+    width: 250px;
+    height: 230px;
+    
+    display: flex;
+
+
+}
+
 ol{
 
     text-align: center;
